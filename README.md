@@ -100,6 +100,21 @@ MAC Address
 ### ICMP
 ```
 Internet Control Message Protocol
+Microsoft Windows [版本 10.0.17134.590]
+(c) 2018 Microsoft Corporation. 著作權所有，並保留一切權利。
+
+C:\Users\KSUIE>tracert www.ksu.edu.tw
+
+在上限 30 個躍點上
+追蹤 www.ksu.edu.tw [120.114.100.65] 的路由:
+
+  1     2 ms     1 ms     2 ms  172.20.155.254
+  2    <1 ms    <1 ms    <1 ms  120-114-50-230.ksu.edu.tw [120.114.50.230]
+  3    <1 ms    <1 ms    <1 ms  eng.www.ksu.edu.tw [120.114.100.65]
+
+追蹤完成。
+
+C:\Users\KSUIE>
 ```
 #### ICMP Message Format封包格式:
 
@@ -183,20 +198,4 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 ```
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
-```
-
-### DNS
-```
-
-```
-
-### DNS
-```
-
-```
-
-### DNS
-```
-
-```
-
+``
